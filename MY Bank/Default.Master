@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="MY_Bank.Default" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title> MY Bank</title>
+    <link href="Css/Default.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+        <header>
+        <nav>
+            <a href="Login.aspx">LOGIN</a>
+            <a href="Home.aspx">HOME</a>  
+            <a href="Accounts.aspx">ACCOUNTS</a>
+            <a href="Feedback.aspx">FEEDBACK</a> 
+        </nav>
+    </header>
+        <div>
+            <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                 </form>
+        </div>
+        
+        <footer id="bank-footer">
+        <div class="footer-container">
+
+            <div class="footer-section">
+                <h2>TrustBank</h2>
+                <p>Empowering your financial future.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="Home.aspx">About Us</a></li>
+                    <li><a href="Feedback.aspx">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: support@trustbank.com</p>
+                <p>Phone: +91 1800-123-456</p>
+                <p>Address: 123 Finance Avenue, Mumbai</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TrustBank. All rights reserved.</p>
+        </div>
+    </footer>
+   
+</body>
+</html>

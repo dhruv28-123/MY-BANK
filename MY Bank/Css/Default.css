@@ -1,0 +1,102 @@
+﻿* {
+    margin: 0 0 7px 0;
+    padding: 0;
+}
+
+header {
+    border: 5px solid lightblue;
+    height: 230px;
+    background-color: dodgerblue;
+    background-image: url('../Image/Home_2.jpeg');
+    background-size: cover;
+}
+
+nav {
+    background-color: white;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: relative;
+    top: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    nav a {
+        text-decoration: none;
+        color: #000000;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+#img {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+body {
+}
+
+#bank-footer {
+    background-color: #cce6ff; /* light blue */
+    color: black;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 200px;
+    margin: 10px;
+}
+
+    .footer-section h2,
+    .footer-section h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #888;
+        padding-bottom: 5px;
+    }
+
+    .footer-section p,
+    .footer-section ul li {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .footer-section ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+            .footer-section ul li a:hover {
+                text-decoration: underline;
+            }
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #999;
+    padding-top: 10px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
